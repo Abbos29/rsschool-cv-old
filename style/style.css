@@ -115,3 +115,82 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* Adaptive */
+
+/* @media (max-width: 768px) {
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .hero {
+    text-align: center;
+    width: 50%;
+  }
+  .links {
+    text-align: center;
+    width: 50%;
+  }
+} */
+
+@media (max-width: 768px) {
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .hero {
+    text-align: center;
+    width: 50%;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .links {
+    text-align: center;
+    width: 50%;
+  }
+  .main .container .dfsb {
+    align-items: center;
+    flex-direction: column;
+  }
+  .header__wrapper {
+    align-items: center;
+    flex-direction: column;
+  }
+  .about, .skills, .english {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .foot-wr {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .foot-wr a {
+    margin-top: 40px;
+  }
+  .about, .skills, .code-exp, .education, .english, .projects {
+    width: 400px;
+  }
+  .links, .hero {
+    width: 300px;
+  }
+}
+
+@media (max-width: 440px) {
+  .container {
+    width: 300px;
+  }
+  .about, .skills, .code-exp, .education, .english, .projects {
+    width: 300px;
+  }
+}
+
+
+
+

@@ -115,3 +115,45 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* Adaptive */
+
+@media (max-width: 768px) {
+  .container {
+    width: 700px;
+    margin: 0 20px;
+  }
+  .hero {
+    text-align: center;
+    width: 50%;
+  }
+  .links {
+    text-align: center;
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 600px;
+  }
+  .hero {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .main .container .dfsb {
+    align-items: center;
+    flex-direction: column;
+  }
+  .header__wrapper {
+    align-items: center;
+    flex-direction: column;
+  }
+  .about, .skills, .english {
+    margin-bottom: 70px;
+  }
+}
+
+
+
+
